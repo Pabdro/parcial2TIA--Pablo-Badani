@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Body, HTTPException, Query, Depends
+from fastapi import FastAPI, Body, HTTPException, Depends
 from fastapi.responses import StreamingResponse
 import requests
 from functools import cache
